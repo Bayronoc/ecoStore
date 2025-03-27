@@ -1,1 +1,55 @@
-/*# sourceMappingURL=styles.css.map */
+@charset "UTF-8";
+/* Variables globales */
+/* Estilos básicos para vanila del HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background: #FFEFE7;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+}
+.menu .menu__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7C6A0A;
+}
+.menu .menu__options {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.menu .menu__options .menu__icon img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+/* Estilos para poder hacer mobile first, debido a los tamaños */
+.section-main .section-main__image img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.section-gallery__container .section-gallery__image img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.section-location__container .section-location__map img {
+  width: 20rem;
+  height: 20rem;
+}/*# sourceMappingURL=styles.css.map */
