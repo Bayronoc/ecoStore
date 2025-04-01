@@ -25,6 +25,7 @@ body {
   width: auto;
   height: auto;
   padding: 1rem;
+  margin: 1rem;
 }
 .menu .menu__title {
   font-size: 2rem;
