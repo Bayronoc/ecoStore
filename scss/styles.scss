@@ -35,13 +35,13 @@ body {
     padding: 1rem;
     margin: 1rem;
 
-    .menu__title {
+    &__title {
         font-size: 2rem;
         font-weight: 500;
         color: $text-color;
     }
 
-    .menu__options {
+    &__options {
         display: flex;
         list-style: none;
         gap: 1rem;
@@ -63,7 +63,7 @@ body {
     align-items: center;
     margin-top: 1rem;
 
-    .section-main__info {
+    &__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -101,7 +101,7 @@ body {
         }
     }
 
-    .section-main__image {
+    &__image {
         img {
             width: 90vw;
             height: 40vh;
