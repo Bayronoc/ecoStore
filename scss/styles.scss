@@ -202,7 +202,6 @@ body {
 
 .section-why {
     &__title {
-        width: 50%;
         margin: 5rem 2rem;
         font-size: 2.2rem;
         font-weight: 500;
@@ -240,16 +239,30 @@ body {
     }
 }
 
-/* Estilos para poder hacer mobile first, debido a los tamaños */
+.section-gallery {
+    &__title {
+        margin: 5rem 2rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: $text-color-primary;
+    }
 
-.section-gallery__container {
-    .section-gallery__image {
-        img {
-            width: 20rem;
-            height: 20rem;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+
+        .section-gallery__image {
+            text-align: center;
+            img {
+                width: 75%;
+                height: 50%;
+            }
         }
     }
 }
+
+/* Estilos para poder hacer mobile first, debido a los tamaños */
 
 .section-location__container {
     .section-location__map {
