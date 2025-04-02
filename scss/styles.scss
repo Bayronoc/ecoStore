@@ -3,6 +3,7 @@
 $primary-color: #FFEFE7;
 $text-color-primary: #7C6A0A;
 $text-color-secondary: white;
+$color-tercenary: #FA9500;
 $theme-green: #BABD8D;
 $theme-pink: #FFDAC6;
 $font-IBM: "IBM Plex Sans", sans-serif;
@@ -164,7 +165,7 @@ body {
             width: 50vw;
             max-width: 20rem;
             align-self: center;
-            background-color: #FA9500;
+            background-color: $color-tercenary;
             border: none;
             border-radius: 2rem;
             padding: 1rem;
@@ -201,7 +202,41 @@ body {
 
 .section-why {
     &__title {
+        width: 50%;
+        margin: 5rem 2rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+        color: $text-color-primary;
+    }
 
+    &__points {
+        display: flex;
+        flex-direction: column;
+        gap: 8rem;
+        margin: 3rem;
+        text-align: center;
+        
+        .section-why__point {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 3rem;
+            
+            .section-why__icon {
+                img {
+                    width: 80%;
+                    height: 80%;
+                }
+            }
+
+            .section-why__text {
+                width: 50vw;
+                color: #E86424;
+                font-size: 1.3rem;
+                font-weight: 500;
+            }
+        }
     }
 }
 

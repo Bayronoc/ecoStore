@@ -212,6 +212,38 @@ body {
 }
 
 /* Sección de why? */
+.section-why__title {
+  width: 50%;
+  margin: 5rem 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #7C6A0A;
+}
+.section-why__points {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+.section-why__points .section-why__point {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.section-why__points .section-why__point .section-why__icon img {
+  width: 80%;
+  height: 80%;
+}
+.section-why__points .section-why__point .section-why__text {
+  width: 50vw;
+  color: #E86424;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 /* Estilos para poder hacer mobile first, debido a los tamaños */
 .section-gallery__container .section-gallery__image img {
   width: 20rem;
