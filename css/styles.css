@@ -243,6 +243,7 @@ body {
   font-weight: 500;
 }
 
+/* Seección galeria */
 .section-gallery__title {
   margin: 5rem 2rem;
   font-size: 2.2rem;
@@ -262,8 +263,32 @@ body {
   height: 50%;
 }
 
-/* Estilos para poder hacer mobile first, debido a los tamaños */
+/* Sección ubicación */
+.section-location__title {
+  margin: 5rem 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #7C6A0A;
+}
+.section-location__container .section-location__map {
+  text-align: center;
+}
 .section-location__container .section-location__map img {
-  width: 20rem;
-  height: 20rem;
+  width: 90%;
+  height: 50vh;
+}
+.section-location__container .section-location__name {
+  color: #E86424;
+  width: 50%;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+.section-location__container .section-location__address {
+  color: #E86424;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 2rem;
 }/*# sourceMappingURL=styles.css.map */
