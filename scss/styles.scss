@@ -339,9 +339,18 @@ body {
         .section-location__map {
             text-align: center;
 
-            img {
+            div {
+                background-image: url("../assets/images/ubication-maps-mobile.png");
+                background-size: cover;
+                margin: 0 auto;
                 width: 90%;
                 height: 50vh;
+
+                /* Responsive tablets */
+
+                @media (min-width: 768px) {
+                    background-image: url("../assets/images/ubication-maps.jpg");
+                }
             }
         } 
 
