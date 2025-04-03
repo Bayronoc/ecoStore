@@ -37,11 +37,26 @@ $font-IBM: "IBM Plex Sans", sans-serif;
         overscroll-behavior-x: contain;
         scroll-snap-type: x mandatory;
 
+        /* Responsive desktop */
+
+        @media (min-width: 1024px) {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5rem;
+            overflow-x: visible; // Elimina el scroll horizontal
+            margin: 2rem;
+        }
+
         .product-card {
             background-color: $bg-color;
             color: $text-color;
             border-radius: 1rem;
             box-shadow: 0 0.55px 5.49px 0 #0000001A;
+
+            @media (min-width: 1024px) {
+                width: 80%;
+                margin: 0 auto;
+            }
             
 
             &__icon {

@@ -156,12 +156,28 @@ body {
   overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
+  /* Responsive desktop */
+}
+@media (min-width: 1024px) {
+  .section-healthy .product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    overflow-x: visible;
+    margin: 2rem;
+  }
 }
 .section-healthy .product-cards .product-card {
   background-color: #FFDAC6;
   color: #7C6A0A;
   border-radius: 1rem;
   box-shadow: 0 0.55px 5.49px 0 rgba(0, 0, 0, 0.1019607843);
+}
+@media (min-width: 1024px) {
+  .section-healthy .product-cards .product-card {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .section-healthy .product-cards .product-card__icon {
   display: flex;
@@ -235,12 +251,28 @@ body {
   overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
+  /* Responsive desktop */
+}
+@media (min-width: 1024px) {
+  .section-house .product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    overflow-x: visible;
+    margin: 2rem;
+  }
 }
 .section-house .product-cards .product-card {
   background-color: #BABD8D;
   color: white;
   border-radius: 1rem;
   box-shadow: 0 0.55px 5.49px 0 rgba(0, 0, 0, 0.1019607843);
+}
+@media (min-width: 1024px) {
+  .section-house .product-cards .product-card {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 .section-house .product-cards .product-card__icon {
   display: flex;
