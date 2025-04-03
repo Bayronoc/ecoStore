@@ -140,6 +140,13 @@ body {
     align-items: center;
     margin-top: 1rem;
 
+    /* Responsive tablets */
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     &__info {
         display: flex;
         flex-direction: column;
@@ -148,6 +155,12 @@ body {
         width: 90vw;
         gap: 2rem;
         padding: 1rem;
+
+        /* Responsive tablets */
+
+        @media (min-width: 768px) {
+            padding: 2rem;
+        }
 
         .section-main__title {
             font-size: 2.8rem;
@@ -170,6 +183,13 @@ body {
             border-radius: 2rem;
             padding: 1rem;
 
+            /* Responsive tablets */
+
+            @media (min-width: 768px) {
+                margin-top: 10rem;
+                align-self: self-start;
+            }
+
             a {
                 font-size: 1.5rem;
                 font-weight: 700;
@@ -182,6 +202,14 @@ body {
         img {
             width: 90vw;
             height: 40vh;
+
+            /* Responsive tablets */
+
+            @media (min-width: 768px) {
+                width: 50vw;
+                height: 50vh;
+                padding: 2rem;
+            }
         }
     }
 }

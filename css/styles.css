@@ -50,6 +50,13 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-main {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .section-main__info {
   display: flex;
@@ -59,6 +66,12 @@ body {
   width: 90vw;
   gap: 2rem;
   padding: 1rem;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-main__info {
+    padding: 2rem;
+  }
 }
 .section-main__info .section-main__title {
   font-size: 2.8rem;
@@ -78,6 +91,13 @@ body {
   border: none;
   border-radius: 2rem;
   padding: 1rem;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-main__info .section-main__button {
+    margin-top: 10rem;
+    align-self: self-start;
+  }
 }
 .section-main__info .section-main__button a {
   font-size: 1.5rem;
@@ -87,6 +107,14 @@ body {
 .section-main__image img {
   width: 90vw;
   height: 40vh;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-main__image img {
+    width: 50vw;
+    height: 50vh;
+    padding: 2rem;
+  }
 }
 
 /* Sección de salud */
