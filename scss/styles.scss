@@ -301,11 +301,25 @@ body {
         flex-direction: column;
         gap: 5rem;
 
+        /* Responsive tablets */
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            justify-content: center;
+        }
+
         .section-gallery__image {
             text-align: center;
             img {
                 width: 75%;
                 height: 50%;
+
+                /* Responsive tablets */
+
+                @media (min-width: 768px) {
+                    width: 25vw;
+                    height: 25vh;
+                }
             }
         }
     }

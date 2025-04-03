@@ -301,6 +301,13 @@ body {
   display: flex;
   flex-direction: column;
   gap: 5rem;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-gallery__container {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 .section-gallery__container .section-gallery__image {
   text-align: center;
@@ -308,6 +315,13 @@ body {
 .section-gallery__container .section-gallery__image img {
   width: 75%;
   height: 50%;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-gallery__container .section-gallery__image img {
+    width: 25vw;
+    height: 25vh;
+  }
 }
 
 /* Sección ubicación */
