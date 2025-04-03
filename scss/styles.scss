@@ -242,6 +242,13 @@ body {
         gap: 8rem;
         margin: 3rem;
         text-align: center;
+
+        /* Responsive tablets */
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            gap: 2rem;
+        }
         
         .section-why__point {
             display: flex;
@@ -249,6 +256,12 @@ body {
             justify-content: center;
             align-items: center;
             margin-bottom: 3rem;
+
+            /* Responsive tablets */
+
+            @media (min-width: 768px) {
+                flex-direction: row;
+            }
             
             .section-why__icon {
                 img {
@@ -262,6 +275,12 @@ body {
                 color: #E86424;
                 font-size: 1.3rem;
                 font-weight: 500;
+
+                /* Responsive tablets */
+
+                @media (min-width: 768px) {
+                    width: 50%;
+                }
             }
         }
     }

@@ -252,6 +252,13 @@ body {
   gap: 8rem;
   margin: 3rem;
   text-align: center;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-why__points {
+    flex-direction: row;
+    gap: 2rem;
+  }
 }
 .section-why__points .section-why__point {
   display: flex;
@@ -259,6 +266,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-why__points .section-why__point {
+    flex-direction: row;
+  }
 }
 .section-why__points .section-why__point .section-why__icon img {
   width: 80%;
@@ -269,6 +282,12 @@ body {
   color: #E86424;
   font-size: 1.3rem;
   font-weight: 500;
+  /* Responsive tablets */
+}
+@media (min-width: 768px) {
+  .section-why__points .section-why__point .section-why__text {
+    width: 50%;
+  }
 }
 
 /* Seección galeria */
